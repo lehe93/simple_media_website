@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <title>Herzlichen Glückwunsch</title>
+        <link rel="stylesheet" type="text/css" href="base.css" />
+        <meta charset="UTF-8">
+        <meta name=viewport content="width=1000, initial-scale=1">
+    </head>
+
+    <body>
+       
+        <div id="container">
+            <h1 style="margin-top: 15%;"> Bitte gib das Passwort ein und drücke dann auf "Login". (test123)</h1>
+            <input type="password" placeholder="Passwort" id="Kartoffeln">
+         <button onclick="protectpasscode()">Login</button>
+         <script>
+            function protectpasscode() {
+               const result = document.getElementById("Kartoffeln").value;
+               let passcode = 'test123';
+               let space = '';
+               if (result == space) {
+                  alert("Type passcode")
+               } else {
+                  if (result == passcode) {
+                     window.open('landing.html');
+                  } else {
+                     alert("Incorrect Passcode");
+                     location.reload();
+                  }
+               }
+            }
+         </script>
+
+        </div>
+            
+        
+        
+
+    </body>
+</html>

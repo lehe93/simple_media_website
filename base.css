@@ -1,0 +1,72 @@
+body {
+    background-image: url(mainz_dom.jpeg);
+    background-color: #2e2e2e;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 18pt;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #2e2e2e;
+    padding-bottom: 20pt;
+}
+
+p {
+    font-size: 13pt;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #2e2e2e;
+}
+
+p.Absatz {
+    margin-top: 100pt;
+}
+
+#container {
+    padding-top: 25pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    margin-top: 5%;
+    background-color: rgba(195, 188, 173, 0.9);
+    position:relative;
+    width: 70%;
+    min-width: 610px;
+    height: fit-content;
+    min-height: 600px;
+    border: 2px solid rgba(255,255,255, 0.5);
+    border-radius: 50pt;
+    left: 15%;
+    right: 15%;
+    margin-bottom: 5%;
+}
+
+
+#container a {
+    font-size: 13pt;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #2e2e2e;
+    text-decoration: none;
+    padding: 10pt;
+    border: 1px solid #2e2e2e;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 10pt;
+    margin-right: 10pt;
+}
+
+#container a:hover {
+    text-decoration: none;
+    color: rgb(255,255,255);
+    background-color: #4e7489;
+}
+
+input{
+    position: center; 
+    font-size: 10pt; 
+    font-family: Helvetica, Arial, sans-serif;
+    margin-top: 10%;
+
+}
